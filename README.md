@@ -4,7 +4,7 @@
   Test with JEST
 </h1>
 
-<p align="center">A project to learn with the JEST.</p>
+<p align="center">A project to learn TDD with the JEST.</p>
 
 ## Features
 [//]: # (Add the features of your project here:)
