@@ -8,7 +8,7 @@
 
 ## Features
 [//]: # (Add the features of your project here:)
-This app features all the latest tools and practices in mobile development!
+This app features all the latest tools and practices in client and development!
 
 - **Node Js** — A web framework for Node Js.
 
@@ -17,8 +17,6 @@ This app features all the latest tools and practices in mobile development!
 - **Faker** — generate massive amounts of fake data in the browser and node.js.
 
 - **PostgreSQL** — is a relational object database management system (DBMS), developed as an open source project.
-
-- **SQLite** — A C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
 
 ## Getting started
 
