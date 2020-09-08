@@ -6,7 +6,8 @@ const sessionController = require('./app/controllers/sessionController');
 
 routes.post('/sessions', sessionController.store);
 
-routes.use(authMiddleware);
-routes.get('/dashboard', (req, res) => { return res.status(200).send() });
+routes.get('/dashboard', authMiddleware, (req, res) => {
+  return res.status(200).send();
+});
 
 module.exports = routes;
