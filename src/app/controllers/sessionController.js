@@ -6,8 +6,7 @@ module.exports = {
 
     const user = await User.findOne({ where: { email } });
 
-    if (!user)
-      return response.status(401).json({ message: 'User not found' });
+    if (!user) return response.status(401).json({ message: 'User not found' });
 
     if (!(await user.checkPassword(password)))
       return response.status(401).json({ message: 'Incorrect password' });
@@ -17,4 +16,4 @@ module.exports = {
       token: user.generateToken(),
     });
   },
-}
+};
